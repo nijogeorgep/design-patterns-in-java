@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+	<target name="javadoc">
+		<javadoc access="public" 
+			author="true" 
+			classpath="." 
+			destdir="doc" 
+			doctitle="Design Patterns in Java" 
+			nodeprecated="false" 
+			nodeprecatedlist="false" 
+			noindex="false" 
+			nonavbar="false" 
+			notree="false" 
+			packagenames="com.cts.design.patterns.factory.simple,
+						com.cts.design.patterns.decorator,
+						com.cts.design.patterns.singleton.threadsafe,
+						com.cts.design.patterns.factory.abstract_,
+						com.cts.design.patterns.facade,
+						com.cts.design.patterns.factory.method,
+						com.cts.design.patterns.command,
+						com.cts.design.patterns.singleton.eager,
+						com.cts.design.patterns.template,
+						com.cts.design.patterns.iterator,
+						com.cts.design.patterns.singleton.doublechecked,
+						com.cts.design.patterns.state,
+						com.cts.design.patterns.adapter,
+						com.cts.design.patterns.observer" 
+			source="1.8" 
+			sourcepath="src" 
+			splitindex="true" 
+			use="true" 
+			version="true" />
+	</target>
+</project>
