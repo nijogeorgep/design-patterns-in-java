@@ -1,5 +1,9 @@
 package com.cloudwalkers.design.patterns.command;
 
+/**
+ * @author nijogeorgep
+ *
+ */
 public class CloseFileCommand implements Command {
 
     private FileSystemReceiver fileSystem;

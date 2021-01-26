@@ -1,5 +1,9 @@
 package com.cloudwalkers.design.patterns.command;
 
+/**
+ * @author nijogeorgep
+ *
+ */
 public class WindowsFileSystemReceiver implements FileSystemReceiver {
     @Override
     public void openFile() {
