@@ -16,8 +16,15 @@ public class SonyStore extends MobileStore {
    */
   @Override
   protected Mobile createMobile(String make) {
-    // TODO Auto-generated method stub
-    return null;
+    Mobile mobile = null;
+    if (make.equals("DSeries")) {
+      mobile = new SonyASeries();
+    } else if (make.equals("ESeries")) {
+      mobile = new SonyASeries();
+    } else if (make.equals("FSeries")) {
+      mobile = new SonyASeries();
+    }
+    return mobile;
   }
 
 }

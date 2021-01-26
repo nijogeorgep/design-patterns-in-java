@@ -22,7 +22,7 @@ public class MobileStoreCentre {
     mobile.experience();
     System.out.println("");
     mobileStore = MobileStoreFactory.getMobileStore("Sony");
-    mobile = mobileStore.assemble("BSeries");
+    mobile = mobileStore.assemble("ASeries");
     mobile.experience();
   }
 

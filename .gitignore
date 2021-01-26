@@ -6,3 +6,6 @@
 *.js
 /doc/
 /javadoc.xml
+/JavaDesignPatterns.iml
+/.idea/
+/.settings/
